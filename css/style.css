@@ -1,9 +1,55 @@
 /* figure img {
     background:  no-repeat center center/cover;
 } */
+* {
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+     family-font:'Gotham', sans-serif; 
+     font: size 40rem;
+}
 
+.vertical--section {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid purple;
+}
+
+.horizontal--section {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid yellow;
+}
+#upper_navbar{
+    
+}
 svg {
-    width: 70%;
+    width: 10%;
     height: auto;
     padding: 15px 15px;
+}
+
+#part1, #part2, #part3 {
+    height: 100vh;
+    width: 100vw;
+}
+
+#part1 {
+    background: url(../img/car1.jpg) no-repeat center center/cover;
+
+}
+
+#skeleton {
+    background: url(../img/car2.jpg) no-repeat center center/cover;
+
+}
+
+/* .part2 {} */
+
+#part2 {
+
+}
+#part3__picture{
+    background: url(../img/car3.jpg) no-repeat center center/cover;
+
 }

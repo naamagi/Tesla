@@ -70,13 +70,11 @@ html {
 .vertical--section {
     display: flex;
     flex-direction: column;
-    border: 3px solid purple;
 }
 
 .horizontal--section {
     display: flex;
     flex-direction: row;
-    border: 3px solid rgb(0, 255, 17);
 }
 
 #upper_navbar {
@@ -88,7 +86,6 @@ html {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: GothamSSm, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-
 }
 
 #upper_navbar__logo {
@@ -104,7 +101,28 @@ html {
 #upper_navbar__logo img {
     max-width: 100%;
     height: 9rem;
+}
 
+#message_icon {
+    position: fixed;
+    bottom:8rem;right:4rem;
+    border: 1px solid rgb(181, 178, 178);
+
+}
+
+img.message_icon {
+    max-width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    z-index: 3;
+
+}
+
+#message_icon button {
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color:rgb(251, 249, 249);
+    box-shadow: inset 4 1px;
 }
 
 #upper_navbar__middle_ul, #upper_navbar__right_ul, .vertical--section {
@@ -175,19 +193,26 @@ svg {
 
 }
 
+#speed-number {
+    justify-content: center;
+}
+
 .first_footer_li {
     margin: 2rem;
     justify-content: flex-start;
-    margin:10rem 2rem;
+    margin: 10rem 2rem;
 }
+
 .first_footer_li h2 {
-    margin-bottom:0.8rem;
-    font-size:2.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 2.8rem;
 }
+
 .first_footer_li h6 {
-    font-size:1.2rem;
-    line-height:2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
+
 #first_footer_li4 h5 {
     border: 0.3rem solid #fff;
     border-radius: 20px;
@@ -197,7 +222,10 @@ svg {
     padding-left: 4rem;
 }
 
-
+#first_footer_li4 h5:hover {
+    background-color: #fff;
+    color: black;
+}
 
 #part1 {
     background: url("../img/car1.jpg") no-repeat center center/cover;
@@ -205,7 +233,9 @@ svg {
     overflow: auto;
 }
 
-
+#part2::target-text {
+  color: #000;
+}
 
 #chassis {
     width: 75vw;
@@ -253,9 +283,11 @@ svg {
     line-height: 4rem;
 
 }
+
 #chassis-text__upper h3 {
-font-weight: 200;
+    font-weight: 200;
 }
+
 /* #chassis-text__lower , */
 .order_button {
     /* width:45vw; */
@@ -295,6 +327,11 @@ font-weight: 200;
     /* width: fit-content; */
 }
 
+#chassis-text__lower .order_now:hover, #chassis-text__lower .plus:hover, #quickest_acceleration__lower .plus:hover, #quickest_acceleration__lower .order_now:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 .plus {
     display: inline-block;
     /* flex: 1; */
@@ -312,7 +349,7 @@ font-weight: 200;
 }
 
 .order_now {
-   
+
     /* flex: 2; */
     border: 0.3rem solid #000;
     border-radius: 20px;
@@ -344,12 +381,12 @@ font-weight: 200;
 }
 
 #part3__picture_ul {
-    width: 47vw;
+    width: auto;
     height: 36%;
 
     justify-content: center;
     color: #fff;
-    overflow: auto;
+    /* overflow: auto; */
 
 }
 
@@ -372,54 +409,62 @@ font-weight: 200;
     height: 22vh;
     /* background-color: rgb(254, 181, 254); */
 }
-#second_footer__empty_box{
-    width:20vw;
+
+#second_footer__empty_box {
+    width: 20vw;
 }
-#quickest_acceleration{
-    width:23vw;
+
+#quickest_acceleration {
+    width: 23vw;
     /* background-color:rgb(250, 234, 237); */
     justify-content: flex-start;
     text-align: left;
-    box-sizing:border-box;
-    margin-top:4rem;
-    }
-#quickest_acceleration p{
-    text-align: left;
-    font-size:1.7rem;
+    box-sizing: border-box;
+    margin-top: 4rem;
 }
-#quickest_acceleration h2{
+
+#quickest_acceleration p {
     text-align: left;
-    font-size:2.8rem;
+    font-size: 1.7rem;
+}
+
+#quickest_acceleration h2 {
+    text-align: left;
+    font-size: 2.8rem;
     line-height: 4rem;
 }
-#quickest_acceleration_section{
+
+#quickest_acceleration_section {
     background-color: aquamarine;
 }
 
-#quickest_acceleration__lower{
+#quickest_acceleration__lower {
     /* background-color:brown; */
     align-items: flex-start;
-    width:auto;
-    font-size:1.2rem;
-    justify-content:flex-start;
+    width: auto;
+    font-size: 1.2rem;
+    justify-content: flex-start;
     /* text-decoration: none; */
 }
-#quickest_acceleration a{
-    text-decoration:none;
+
+#quickest_acceleration a {
+    text-decoration: none;
     color: #000;
 }
+
 #second_footer__text {
     width: 55vw;
-    
+
 
 }
-#second_footer__text p{
-    font-size:1.4rem;
+
+#second_footer__text p {
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: left;
-    margin-top:4rem;
-    margin-left:4rem;
-    margin-right:35rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 35rem;
     line-height: 2rem;
 
 }
@@ -442,42 +487,173 @@ aside {
 #aside__ul {
     height: 100vh;
     color: #fff;
+    display: block;
+    list-style-type: none;
+    line-height: 3rem;
     /* flex:1; */
+    margin-top: 37vh;
 }
 
-@media(max-width:1200px) {
-    #upper_navbar__middle_ul, #right_li1, #right_li2 {
-        display: none;
-
-    }
-
-    #right_li3 {
-        background-color: grey;
-        border: 1px solid grey;
-        border-radius: 30%;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        text-align: center;
-    }
-
+#aside__ul a {
+    line-height: 0.5rem;
+    font-size: 2.4rem;
+    font-weight: 100;
+    list-style-type: none;
+    width: 2.0rem;
+    text-align: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
 }
 
-@media(max-width:899) {
-    #footer1_ul {
-        flex-wrap: wrap;
-    }
+#part2[style*="color: #fff"] {
+    color: #000 !important;
+  }
+  
+
+#sidebar_li1 {
+    font-weight: 800;
 }
 
-@media(max-width:970) {
-    /* car becomes larger */
+
+
+#sidebar_li1:hover::before {
+    content: 'MODEL 3';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
 }
 
-@media(max-width:900px) {
-    /* remove tesla, sidebar upper right, change footer */
+#sidebar_li2:hover::before {
+    content: 'SAFETY';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
 }
 
-@media(max-width:900px) {
-    #upper_navbar {
-        flex-wrap: wrap;
-    }
+#sidebar_li3:hover::before {
+    content: 'PERFORMANCE';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
 }
+
+#sidebar_li4:hover::before {
+    content: 'ALL-WHEEL DRIVE';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 10rem;
+    /* 75.36rem; */
+    line-height: 2rem;
+}
+
+#sidebar_li5:hover::before {
+    content: 'RANGE';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
+}
+
+#sidebar_li6:hover::before {
+    content: 'AUTOPILOT';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
+}
+
+#sidebar_li7:hover::before {
+    content: 'INTERIOR';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
+}
+
+#sidebar_li8:hover::before {
+    content: 'SPECS';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
+}
+
+#sidebar_li9:hover::before {
+    content: 'ORDER';
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 3;
+    opacity: 1;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    height: 75.36rem;
+    line-height: 2rem;
+}
+
+/* #sidebar_li1:hover::before {
+    content: 'MODEL 3';
+} */

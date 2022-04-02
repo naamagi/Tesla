@@ -1,0 +1,82 @@
+@media(max-width:1200px) {
+    #upper_navbar__middle_ul, #right_li1, #right_li2 {
+        display: none;
+
+    }
+
+    #right_li3 {
+        background-color: grey;
+        border: 1px solid grey;
+        border-radius: 30%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+
+    #part2 {
+        flex-direction: vertical;
+        align-items: flex-end;
+    }
+
+    #chassis {
+        /* display: flex;
+        flex-direction: row; */
+        /* display: inline-block; */
+        width: 100vw;
+        height: 60vh;
+        background-image: url("../img/car2.jpg") no-repeat center center/cover;
+        /* background-color: pink; */
+
+    }
+
+    #chassis-text {
+        flex-direction: row-reverse;
+        width: 100vw;
+        height: 40vh;
+    }
+
+    #chassis-text__lower {
+        width: 40vw;
+    }
+
+    #chassis-text__upper {
+        width: 60vw;height: 40vh;
+    }
+}
+
+
+
+@media(max-width:970) {
+    /* car becomes larger */
+    /* #part1 {
+        background-image: url("../img/car1.jpg") no-repeat center center/cover;
+
+        background-position:70% ;
+        background-size:70% 50%;
+        overflow:auto;
+    } */
+}
+
+@media(max-width:900px) {
+
+    /* remove tesla, sidebar upper right, change footer */
+    .sidebar_li {
+        display: none;
+
+    }
+    #footer1_ul:last-child {
+flex-wrap: nowrap;
+    }
+}
+
+@media(max-width:900px) {
+    #upper_navbar {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:899) {
+    #footer1_ul {
+        flex-wrap: wrap;
+    }
+}

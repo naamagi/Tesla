@@ -82,7 +82,11 @@ img.message_icon {
 .upper_nav_li {
     margin: var(--FONT_SIZE_20);
 }
-
+.upper_nav_li:hover ,.right_nav_li:hover{
+    background-color:grey;
+    border-radius: 20px;
+    padding: var(--FONT_SIZE_8) var(--FONT_SIZE_20);
+}
 #upper_navbar__right_ul {
     flex: 1;
     justify-content: flex-end;

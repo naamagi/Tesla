@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/gotham%22"  type="text/css"> 
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/gotham%22" type="text/css">
 
     <title>Model 3 | Tesla</title>
 </head>
@@ -16,8 +16,7 @@
     <main id="whole_page" class="vertical--section">
         <main id="part1" class="vertical--section">
             <nav class="horizontal--section" id="upper_navbar">
-                <!-- <nav> -->
-                <figure>
+                <figure id="upper_navbar__logo">
                     <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -25,8 +24,7 @@
                             fill="currentColor"></path>
                     </svg>
                 </figure>
-                <!-- <figure> -->
-                <ul class="horizontal--section">
+                <ul class="horizontal--section" id="upper_navbar__middle_ul">
                     <li class="upper_nav_li" id="upper_li1">Model S</li>
                     <li class="upper_nav_li" id="upper_li2">Model 3</li>
                     <li class="upper_nav_li" id="upper_li3">Model X</li>
@@ -34,16 +32,14 @@
                     <li class="upper_nav_li" id="upper_li5">Solar Roof</li>
                     <li class="upper_nav_li" id="upper_li6">Solar Panels</li>
                 </ul>
-                <!-- <ul> -->
-                <ul class="horizontal--section">
+                <ul class="horizontal--section" id="upper_navbar__right_ul">
                     <li class="right_nav_li" id="right_li1">Shop</li>
                     <li class="right_nav_li" id="right_li2">Account</li>
                     <li class="right_nav_li" id="right_li3">Menu</li>
                 </ul>
             </nav>
             <aside>
-                <!-- <ul> -->
-                <ul class="vertical--section" >
+                <ul class="vertical--section" id="aside__ul">
                     <li class="sidebar_li" id="sidebar_li1">MODEL 3</li>
                     <li class="sidebar_li" id="sidebar_li2">SAFETY</li>
                     <li class="sidebar_li" id="sidebar_li3">PERFORMANCE</li>
@@ -55,49 +51,70 @@
                     <li class="sidebar_li" id="sidebar_li9">ORDER</li>
                 </ul>
             </aside>
-            <header>
-                <h1>Model 3</h1>
+            <header id="main_header">
+                <h1 id="part1_header">Model 3</h1>
             </header>
-            
-            <footer class="footer1">
-                <ul>
-                    <li class="first_footer_li" id="first_footer_li1">
-                        <h2> 3.1 s 0-60 mph*</h2>
+            <section id="empty_section">
+
+            </section>
+            <footer id="footer1">
+                <ul class="horizontal--section" id="footer1_ul">
+                    <li class="first_footer_li vertical--section" id="first_footer_li1">
+                        <h2> 3.1 s </h2>
+                        <h6>0-60 mph*</h6>
                     </li>
-                    <li class="first_footer_li" id="first_footer_li2"> 358 mi</li>
-                    <li class="first_footer_li" id="first_footer_li3"></li>
-                    <li class="first_footer_li" id="first_footer_li4"></li>
+                    <li class="first_footer_li vertical--section" id="first_footer_li2">
+                        <h2>358 mi</h2>
+                        <h6>Range (EPA est.)</h6>
+                    <li class="first_footer_li vertical--section" id="first_footer_li3">
+                        <h2>AWD</h2>
+                        <h6>Dual Motor</h6>
+                    </li>
+                    <li class="first_footer_li vertical--section" id="first_footer_li4">
+                        <h5> ORDER NOW</h5>
+                        
+                    </li>
                 </ul>
             </footer>
         </main>
         <main id="part2" class="horizontal--section">
-            <figure id=skeleton>
+            <figure id="skeleton">
             </figure>
-            <figcaption class="vertical--section">
-                <h3>Safety</h3>
-                <h2>Built for Safety</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
-                    libero!
-                    Qui!
-                </p>
-                <h5></h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
-                    libero!
-                    Qui!
-                </p>
-                <h5></h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
-                    libero!
-                    Qui!
-                </p>
-            </figcaption>
+            <section id="skeleton-text" class="vertical--section">
+                <figcaption id="skeleton-text__upper" class="vertical--section">
+                    <h3>Safety</h3>
+                    <h2>Built for Safety</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
+                        libero!
+                        Qui!
+                    </p>
+                    <h5></h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
+                        libero!
+                        Qui!
+                    </p>
+                    <h5></h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis labore modi quaerat distinctio
+                        libero!
+                        Qui!
+                    </p>
+                </figcaption>
+                <figcaption id="skeleton-text__lower" class="horizontal--section">
+                    <h3>
+                        <a href="#">+</a>
+                        <a href="#">LEARN MORE</a>
+                        <a href="#">ORDER NOW</a>
+                    </h3>
+                </figcaption>
+            </section>
         </main>
         <main id="part3" class="vertical--section">
             <figure id="part3__picture horizontal--section">
 
             </figure>
             <footer id="second_footer" class="horizontal--section">
-                <section id="Quickest Acceleration" class="vertical--section">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+                <section id="Quickest Acceleration" class="vertical--section">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sequi
                     veniam qui eveniet neque nisi!
                     Quod
                     atque repellendus minus placeat odit.

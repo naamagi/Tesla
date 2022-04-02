@@ -1,0 +1,17 @@
+:root {
+    --FONT_SIZE_3: 0.3rem;
+    --FONT_SIZE_9: 0.9rem;
+    --FONT_SIZE_8: 0.8rem;
+    --FONT_SIZE_10: 62.5%;
+    --FONT_SIZE_12: 1.2rem;
+    --FONT_SIZE_14: 1.4rem;
+    --FONT_SIZE_15: 1.5rem;
+    --FONT_SIZE_17: 1.7rem;
+    --FONT_SIZE_20: 2rem;
+    --FONT_SIZE_28: 2.8rem;
+    --FONT_SIZE_30: 3rem;
+    --FONT_SIZE_40: 4rem;
+    --FONT_SIZE_50: 5rem;
+    --FONT_SIZE_80: 8rem;
+    --FONT_SIZE_100: 10rem;
+}

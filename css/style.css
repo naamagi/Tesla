@@ -9,7 +9,7 @@
     /* font-family: 'Gotham', sans-serif; */
     /* font: size 40rem; */
     text-align: center;
-    font-family: 'GothamSSm', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue', sans-serif;
+    font-family: 'GothamSSm', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 
 
 }
@@ -53,12 +53,14 @@
     font-weight: 200;
     src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "gothamSSm";
     src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2) format("woff2");
     /* font-weight: "light"; */
     font-weight: light;
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -85,7 +87,7 @@ html {
     flex: 1;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: GothamSSm, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue',Arial, sans-serif;
+    font-family: GothamSSm, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
 }
 
@@ -98,11 +100,13 @@ html {
     font-size: 3rem;
     margin: 0;
 }
-#upper_navbar__logo img{
-max-width: 100%;
-height:9rem;
+
+#upper_navbar__logo img {
+    max-width: 100%;
+    height: 9rem;
 
 }
+
 #upper_navbar__middle_ul, #upper_navbar__right_ul, .vertical--section {
     /* text-decoration: none; */
     list-style: none;
@@ -183,8 +187,8 @@ svg {
     border-radius: 30%;
     padding: 0.7rem;
     width: auto;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 #part1 {
@@ -207,7 +211,7 @@ svg {
     align-items: center;
     font-size: 1.4rem;
     line-height: 2rem;
-    font-family: GothamSSm, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue', sans-serif;
+    font-family: GothamSSm, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
 #chassis-text__upper {
@@ -243,42 +247,47 @@ svg {
 
     /* flex: 1; */
     /* height: 50vh; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     flex: 1;
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 3rem;
 
 }
-#chassis-text__lower section{
-min-height: fit-content;
-width: 100%;
 
-/* min-width:fit-content; */
+#chassis-text__lower section {
+    min-height: fit-content;
+    width: 100%;
+    /* padding-top:auto; */
+    /* min-width:fit-content; */
 
 }
-#chassis-text__lower a{
-    text-decoration:none;color:#000;
+
+#chassis-text__lower a {
+    text-decoration: none;
+    color: #000;
 }
-#learn_more_button{
+
+#learn_more_button {
     display: flex;
-    background-color:none;
+    background-color: none;
     flex: 3;
     margin-right: 1rem;
-    background-color:transparent;
-    border:none;
-    align-items:center;
+    background-color: transparent;
+    border: none;
+    align-items: center;
 }
+
 #plus {
     display: inline-block;
     /* flex: 1; */
     border: 1px solid #000;
     border-radius: 50%;
     margin-right: 1rem;
-    width:3rem;
-    height:3rem;
+    width: 3rem;
+    height: 3rem;
     padding-top: 0.6rem;
-/* text-align: center; */
+    /* text-align: center; */
 }
 
 #learn_more {
@@ -289,6 +298,7 @@ width: 100%;
     flex: 4;
     border: 1px solid #000;
     border-radius: 30%;
+    padding-top: 0.3rem
 }
 
 #part2 {
@@ -296,8 +306,9 @@ width: 100%;
 }
 
 #part3__picture {
-    background: url(../img/car3.jpg) no-repeat center center/cover;
-
+    background: url("../img/car3.jpg") no-repeat center center/cover;
+    height: 78vh;
+    /* flex:3; */
 }
 
 aside {

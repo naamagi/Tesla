@@ -164,6 +164,19 @@ img.message_icon {
     color: var(--LIGHT_COLOR);
     overflow: auto;
 }
+#arrow_down {
+    position: fixed;
+    bottom: var(--FONT_SIZE_80);
+    left: var(--FONT_SIZE_40);
+}
+
+img.arrow {
+    max-width: 100%;
+    width: 20px;
+    height: var(--FONT_SIZE_50);
+    padding: 1rem;
+    z-index: 3;
+}
 
 
 #chassis {

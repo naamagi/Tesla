@@ -7,7 +7,7 @@ Tesla website mockup
 
 ## Demo
 
-Model 3 | Tesla (stupendous-pie-c5bbd4.netlify.app)
+https://stupendous-pie-c5bbd4.netlify.app/
 
 
 ------------------------------------------------

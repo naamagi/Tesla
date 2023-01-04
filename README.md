@@ -9,7 +9,11 @@ Tesla website mockup
 
 https://stupendous-pie-c5bbd4.netlify.app/
 
+![tesla1](./tesla1_Naama.png)
 
+![tesla2](./tesla2_Naama.png)
+
+![tesla3](./tesla3_Naama.png)
 ------------------------------------------------
 ## Contributors
 
